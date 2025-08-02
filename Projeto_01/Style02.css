@@ -1,0 +1,39 @@
+h1{
+    background-color: black;
+    height: 150px;
+    color: white;
+    opacity: 0.7;
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*{
+    margin: 0px;
+}
+
+body{
+    background-image: url(Imagens/Goty\ image.webp);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: rgb(8, 5, 30);
+    
+}
+ul{
+    color: white;;
+    line-height: 40px;
+}
+
+main{
+    width: 1400px;
+    height: 2000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;top: 1150px;
+}
+.a2{
+    color: rgb(11, 188, 223);
+    text-decoration: none;
+}

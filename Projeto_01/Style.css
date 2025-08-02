@@ -1,0 +1,138 @@
+table,tr,td{
+    padding: 0px;
+    border-spacing: 0px;
+    border:1px solid black;
+    border-collapse: collapse;
+    width: 600px;
+    height: 60px;
+    text-align: center;
+    color: black;
+}
+
+header{
+    background-color: #0b0b2b;
+    min-height: 180px;
+    max-width: none;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 35px;
+    box-shadow: 3px 4px 7px;
+    opacity: 0.90;
+
+}
+
+h1{
+    margin-left: 70px;
+    font-size: 45px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    margin-top: -20px;
+    color: white;
+   
+}
+
+
+body{
+    background-image: url(Imagens/Goty\ image.webp);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: rgb(8, 5, 30);
+    
+}
+
+
+*{
+    padding: 0px;margin: 0px;
+}
+nav{
+    position: relative;top: -40px;
+    display: flex;
+    align-items:  center;
+}
+.a2{
+    padding: 10px;
+    margin: 4px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow:  5px;
+    color: white;
+    text-decoration:none;
+    transition-duration: 0.3s;
+}
+
+h2{
+    margin: auto;
+    font-size: 55px;
+    font-family: sans-serif;
+    color: white;
+    position: relative;top: -150px;
+}
+
+h4,article{
+    color: white;
+    position: relative;top: -150px;
+    width: 1100px;
+    margin: auto;
+    font-size: 25px;
+    text-align: justify;
+}
+
+
+main{
+    margin: auto;
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;top: 5px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 3px 4px 3px;
+
+}
+
+
+img{
+    transition-duration: 0.3s;
+    width: 100%;
+    width: 65px;
+    height: 65px
+}
+
+picture{
+    position: absolute;left: 750px;
+    margin-top: -68px;
+}
+.a1{
+    color: white;
+}
+
+img:hover {
+  opacity: 0.7;
+  scale: 1.5;
+}
+
+nav > .a2:hover{
+   opacity: 0.7;
+   background-color: black;
+   scale: 1.1;
+}
+section{
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    width: 1200px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    box-shadow: 3px 4px 3px;
+    height: 600px;
+}
